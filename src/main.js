@@ -28,7 +28,7 @@ const headerBlock = () => {
             </nav class='gap-x-8'>
             <button id='cesta_carrito' class='w-8 flex cestaCarrito'>
                 <img class='h-9 w-8 iconoCesta' src='../imagenes/iconos/cart (1).svg'>
-                <spam id='contadorCarrito' class='contador'>
+                <spam id='contadorCarrito claseO' class='contador'>
                     0
                 </spam>
             </button>
@@ -38,7 +38,7 @@ const headerBlock = () => {
 
     divHeader.addEventListener('click',(e)=> {
         if(e.target.classList.contains('cestaCarrito')|e.target.classList.contains('iconoCesta')|e.target.classList.contains('contador')){
-            
+
         }
         
 
